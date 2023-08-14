@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  padding: 0 $spacing;
+  max-width: calc($container-xl - ($spacing * 2));
+}
+
+.container-small {
+  margin: 0 auto;
+  padding: 0 $spacing;
+  max-width: calc($container-sm - ($spacing * 2));
+}

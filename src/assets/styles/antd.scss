@@ -1,0 +1,28 @@
+.ant {
+  &-select {
+    width: 100%;
+
+    @media (hover: none) {
+      &-selector {
+        border-color: #d9d9d9 !important;
+      }
+    }
+  }
+
+  &-btn {
+    @media (hover: none) {
+      color: rgba(0, 0, 0, 0.88) !important;
+
+      &-icon {
+        color: rgba(0, 0, 0, 0.45) !important;
+      }
+    }
+  }
+
+  &-input,
+  &-btn {
+    @media (hover: none) {
+      border-color: #d9d9d9 !important;
+    }
+  }
+}

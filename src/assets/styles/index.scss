@@ -1,0 +1,13 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+@import "./containers.scss";
+@import "./antd.scss";
+
+body {
+  margin: 0;
+  font-family: $primary-f;
+
+  * {
+    box-sizing: border-box;
+  }
+}

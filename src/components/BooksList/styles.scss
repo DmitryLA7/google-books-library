@@ -1,0 +1,23 @@
+@import "../../assets/styles/variables.scss";
+
+.books-list {
+  padding: 30px 0;
+
+  &__total {
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__load-more {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  &__error {
+    margin: 10px 0;
+    text-align: center;
+    color: $error-c;
+    font-weight: 700;
+  }
+}
